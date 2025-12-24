@@ -2,5 +2,6 @@
 {
     public interface IFirstException
     {
+        public Task GetFirstException();
     }
 }

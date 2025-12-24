@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HandleErrorsExample.CustomExceptions\HandleErrorsExample.CustomExceptions.csproj" />
+    <ProjectReference Include="..\HandleErrorsExample.Interfaces\HandleErrorsExample.Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>
